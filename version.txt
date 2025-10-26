@@ -1,0 +1,12 @@
+﻿Version: 1.0.0
+ProductName: FPSPACK PANEL
+CompanyName: aMathyzin Studio
+Author: aMathyzin
+BuildDate: 2025-10-10
+Description: System performance optimization application for Windows. Includes registry tweaks, cache cleaning, network optimizations and real-time monitoring.
+Contact: contato@amathyzin.com.br
+Website: https://amathyzin.com.br
+NotesForAV: This executable was built with Python (3.13) and Nuitka; it is a legitimate Windows distribution binary. If false positives occur, please add an exception and contact support using the email above.
+SHA256: F39BCF1188ED492D5DE4FF114074B535CE2B354B748D4ACB8282E06705D17A61
+// End of file
+SHA1: A2F75322F172D8CBAC0E6DCE89086CAE14ED0040

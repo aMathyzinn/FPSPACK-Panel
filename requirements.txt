@@ -1,0 +1,29 @@
+# FPSPACK PANEL - Dependências Essenciais
+# Sistema de Otimização Avançado
+
+# Interface Gráfica
+PySide6>=6.5.0
+
+# Monitoramento do Sistema
+psutil>=5.9.0
+
+# Gráficos e Visualização
+pyqtgraph>=0.13.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# Logging e Configuração
+colorlog>=6.7.0
+
+# Rede e HTTP
+requests>=2.31.0
+
+# Processamento de Dados
+pandas>=2.0.0
+
+# Utilitários Adicionais
+pillow>=10.0.0
+send2trash>=1.8.0
+
+# Específico para Windows
+pywin32>=306; sys_platform == "win32"

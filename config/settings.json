@@ -1,0 +1,294 @@
+{
+    "version": "1.0.0",
+    "app": {
+        "theme": "dark",
+        "language": "pt-BR",
+        "auto_start": false,
+        "minimize_to_tray": true,
+        "check_updates": true,
+        "show_notifications": true,
+        "animation_speed": "normal",
+        "transparency": 0.95
+    },
+    "monitoring": {
+        "update_interval": 1000,
+        "history_points": 60,
+        "show_graphs": true,
+        "monitor_temperature": true,
+        "monitor_network": true,
+        "monitor_processes": true
+    },
+    "optimization": {
+        "auto_ram_cleanup": false,
+        "ram_cleanup_interval": 120,
+        "ram_threshold": 80,
+        "auto_optimize_startup": false,
+        "auto_optimize_services": false,
+        "backup_services": true,
+        "advanced_options": {
+            "aggressive_ram": true,
+            "disable_services": true,
+            "adjust_mtu": false,
+            "tcp_optimization": true,
+            "process_priority": false,
+            "system_cache": true,
+            "visual_effects": false
+        },
+        "create_restore_point": true,
+        "backup_registry": true,
+        "safe_mode": true,
+        "turbo_mode_timeout": 3600
+    },
+    "cleanup": {
+        "auto_cleanup": false,
+        "cleanup_schedule": "daily",
+        "cleanup_temp_files": true,
+        "cleanup_browser_cache": true,
+        "cleanup_system_cache": true,
+        "cleanup_logs": true,
+        "cleanup_registry": false,
+        "empty_recycle_bin": false,
+        "days_to_keep_logs": 7,
+        "create_backups": true,
+        "backup_registry": true,
+        "backup_path": "C:\\FPSPACK_Backups"
+    },
+    "network": {
+        "optimize_tcp": true,
+        "optimize_dns": true,
+        "use_custom_dns": false,
+        "primary_dns": "1.1.1.1",
+        "secondary_dns": "1.0.0.1",
+        "disable_nagle": true,
+        "enable_rss": true
+    },
+    "gaming": {
+        "game_mode_enabled": false,
+        "auto_detect_games": true,
+        "boost_priority": true,
+        "disable_windows_game_mode": false,
+        "optimize_gpu": true,
+        "reduce_input_lag": true
+    },
+    "power": {
+        "create_custom_plan": true,
+        "plan_name": "aMathyzin Performance Mode",
+        "cpu_min_state": 100,
+        "cpu_max_state": 100,
+        "disable_sleep": true,
+        "disable_hibernation": true,
+        "usb_selective_suspend": false
+    },
+    "security": {
+        "create_backups": true,
+        "backup_location": "",
+        "encrypt_backups": false,
+        "verify_signatures": true,
+        "safe_mode_only": false
+    },
+    "advanced": {
+        "require_admin": false,
+        "create_restore_points": true,
+        "verify_signatures": true,
+        "debug_mode": false,
+        "log_level": "INFO",
+        "verbose_logging": false,
+        "performance_monitoring": false,
+        "worker_threads": 4,
+        "memory_cache_mb": 256,
+        "enable_telemetry": false,
+        "experimental_features": false,
+        "developer_mode": false,
+        "custom_scripts": false
+    },
+    "ui": {
+        "window_width": 1400,
+        "window_height": 900,
+        "window_maximized": false,
+        "sidebar_width": 250,
+        "show_tooltips": true,
+        "compact_mode": false,
+        "show_system_info": true,
+        "graph_style": "line",
+        "color_scheme": "blue",
+        "theme": "Dark",
+        "accent_color": "Azul",
+        "animations": true,
+        "smooth_scrolling": true,
+        "fade_effects": true,
+        "chart_update_rate": 1000,
+        "chart_history_points": 100
+    },
+    "notifications": {
+        "enabled": true,
+        "sound": false,
+        "optimization_alerts": true,
+        "show_optimization_results": true,
+        "show_cleanup_results": true,
+        "show_warnings": true,
+        "show_errors": true,
+        "sound_enabled": false,
+        "desktop_notifications": true,
+        "tray_notifications": true
+    },
+    "logging": {
+        "level": "INFO",
+        "retention_days": 30
+    },
+    "performance": {
+        "max_cpu_usage": 80,
+        "max_ram_usage": 85,
+        "max_disk_usage": 90,
+        "max_temp_cpu": 80,
+        "alert_thresholds": true,
+        "auto_optimize_on_threshold": false
+    },
+    "startup": {
+        "disable_unnecessary": true,
+        "backup_startup_items": true,
+        "whitelist": [
+            "Windows Security",
+            "Audio drivers",
+            "Graphics drivers",
+            "Antivirus"
+        ],
+        "blacklist": [
+            "Spotify",
+            "Discord",
+            "Steam",
+            "Epic Games",
+            "Adobe Updater"
+        ]
+    },
+    "services": {
+        "optimize_services": true,
+        "backup_service_config": true,
+        "safe_services_only": true,
+        "services_to_disable": [
+            "SysMain",
+            "Themes",
+            "Fax",
+            "WSearch"
+        ],
+        "services_to_manual": [
+            "Spooler",
+            "TabletInputService",
+            "WbioSrvc"
+        ]
+    },
+    "registry": {
+        "cleanup_registry": false,
+        "backup_before_cleanup": true,
+        "safe_keys_only": true,
+        "create_restore_point": true,
+        "verify_changes": true
+    },
+    "disk": {
+        "defragment_hdd": true,
+        "optimize_ssd": true,
+        "trim_ssd": true,
+        "check_disk_health": true,
+        "monitor_disk_space": true,
+        "cleanup_threshold": 85
+    },
+    "memory": {
+        "empty_working_sets": true,
+        "clear_standby_cache": true,
+        "optimize_page_file": true,
+        "disable_superfetch": true,
+        "optimize_prefetch": true
+    },
+    "cpu": {
+        "set_high_priority": true,
+        "disable_core_parking": false,
+        "optimize_scheduler": true,
+        "boost_mode": "aggressive",
+        "thermal_throttling": false
+    },
+    "gpu": {
+        "optimize_gpu_scheduling": true,
+        "hardware_acceleration": true,
+        "gpu_priority": "high",
+        "disable_gpu_timeout": true,
+        "optimize_vram": true
+    },
+    "paths": {
+        "temp_folders": [],
+        "cache_folders": [],
+        "log_folders": [],
+        "backup_folder": "",
+        "custom_cleanup_paths": []
+    },
+    "exclusions": {
+        "processes": [],
+        "files": [],
+        "folders": [],
+        "registry_keys": [],
+        "services": []
+    },
+    "profiles": {
+        "current_profile": "balanced",
+        "profiles": {
+            "gaming": {
+                "name": "Modo Gaming",
+                "description": "Otimizações focadas em jogos",
+                "settings": {
+                    "ram_cleanup": true,
+                    "cpu_priority": "realtime",
+                    "gpu_optimization": true,
+                    "network_optimization": true,
+                    "disable_services": true
+                }
+            },
+            "balanced": {
+                "name": "Modo Equilibrado",
+                "description": "Balance entre performance e estabilidade",
+                "settings": {
+                    "ram_cleanup": true,
+                    "cpu_priority": "high",
+                    "gpu_optimization": false,
+                    "network_optimization": false,
+                    "disable_services": false
+                }
+            },
+            "maximum": {
+                "name": "Máximo Desempenho",
+                "description": "Todas as otimizações ativadas",
+                "settings": {
+                    "ram_cleanup": true,
+                    "cpu_priority": "realtime",
+                    "gpu_optimization": true,
+                    "network_optimization": true,
+                    "disable_services": true,
+                    "disable_visual_effects": true
+                }
+            }
+        }
+    },
+    "schedule": {
+        "auto_cleanup_enabled": false,
+        "cleanup_time": "02:00",
+        "cleanup_days": [
+            "sunday"
+        ],
+        "auto_optimization_enabled": false,
+        "optimization_interval": 60,
+        "maintenance_mode": false
+    },
+    "reporting": {
+        "generate_reports": true,
+        "report_format": "html",
+        "include_graphs": true,
+        "report_location": "",
+        "auto_export": false,
+        "report_frequency": "weekly"
+    },
+    "updates": {
+        "auto_check": true,
+        "check_interval": 24,
+        "beta_updates": false,
+        "auto_download": false,
+        "auto_install": false,
+        "update_channel": "stable"
+    }
+}
