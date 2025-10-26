@@ -101,7 +101,7 @@ run.bat
 Exemplo básico:
 
 ```bash
-python -m nuitka --onefile --windows-disable-console --enable-plugin=pyqt6 --include-data-dir=img=img --output-dir=dist main.py
+python -m nuitka --onefile --windows-disable-console --enable-plugin=pyside6 --include-data-dir=img=img --output-dir=dist main.py
 ```
 
 Ajuste plugins e includes conforme PySide6 e assets utilizados.
