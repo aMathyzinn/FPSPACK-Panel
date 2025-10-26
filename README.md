@@ -37,7 +37,7 @@ Aplicativo de otimização de desempenho para Windows com interface moderna em t
 - Autor: `aMathyzin`
 - Empresa: `aMathyzin Studio`
 
-## Preview
+## MORE FPS 
 
 <div align="center">
   <img src="img/splash.webp" alt="Splash / Preview do FPSPACK PANEL" width="820" style="border-radius:12px"/>
